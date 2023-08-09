@@ -21,8 +21,8 @@ const Hero = () => {
             &nbsp; Neshat
               </span>
             </h1>
-            <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-              I develop 3D visuals , user <br className='sm:block hidden' />interfaces and web applications.
+            <p className={`${styles.heroSubText} mt-2 text-white-100 text-right`}>
+             من توسعه دهنده ی فرانت اند هستم و هدف من <br className='sm:block hidden' /> ترکیب زیبایی و عملکرد در تجربه کاربری است
             </p>
         </div>
       </div>
