@@ -32,7 +32,11 @@ import {
     },
     {
       id: "work",
-      title: "نمونه کار ",
+      title: "مهارت های من",
+    },
+    {
+      id: "project",
+      title: " نمونه کار من",
     },
     {
       id: "contact",
@@ -50,7 +54,7 @@ import {
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "NextJs",
       icon: backend,
     },
     {
@@ -117,10 +121,8 @@ import {
   const experiences = [
     {
       title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      icon: html,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -130,10 +132,8 @@ import {
     },
     {
       title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      icon: css,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -143,10 +143,8 @@ import {
     },
     {
       title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      icon: javascript,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -156,10 +154,8 @@ import {
     },
     {
       title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      icon: reactjs,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -172,26 +168,26 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
+        "ما فکر میکردیم که ساخت یک وبسایت که به زیبایی محصولات ما باشه کار غیر ممکنی هست ولی تک ویژن وب به ما نشان داد که اشتباه فکر می کردیم",
+      name: "sarajwelery",
       designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+      company: "Acme jwelery",
+      image: "https://randomuser.me/api/portraits/women/61.jpg",
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+        "من تونستم خیلی راحت از طریق ویدیو های آموزشی تک ویژن وب سایت خودمو طراحی کنم",
+      name: "Ali_Goodarzi",
+      designation: "Student",
+      company: "Azad University",
+      image: "https://randomuser.me/api/portraits/men/73.jpg",
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
+        "من هیچی از برنامه نویسی بلد نبودم اما از طریق ویدیو های آموزشی تک ویژن وب تونستم فرانت اند رو از صفر یاد بگیرم ، ممنونم تک ویژن وب",
+      name: "MaryamWebDeveloper",
+      designation: "freelancer front-end developer",
+      company: "my own work",
       image: "https://randomuser.me/api/portraits/women/6.jpg",
     },
   ];
@@ -200,7 +196,7 @@ import {
     {
       name: "Car Rent",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "یک پلتفرم مبتنی بر وب که به کاربران امکان جستجو، رزرو و مدیریت اجاره خودرو از ارائه‌دهندگان مختلف را فراهم می‌کند، یک راه حل راحت و کارآمد برای نیازهای حمل و نقل فراهم می‌کند",
       tags: [
         {
           name: "react",
@@ -221,7 +217,7 @@ import {
     {
       name: "Job IT",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "یک برنامه تحت وب که به کاربران امکان جستجوی فرصت‌های شغلی، مشاهده بازه‌های تخمینی حقوق برای پست‌ها و پیدا کردن موقعیت‌های شغلی موجود بر اساس موقعیت جغرافیایی فعلی‌شان را فراهم می‌کند",
       tags: [
         {
           name: "react",
@@ -242,7 +238,7 @@ import {
     {
       name: "Trip Guide",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "یک پلتفرم جامع رزرو سفر که به کاربران امکان رزرو پروازها، هتل‌ها و اجاره خودروها را می‌دهد و پیشنهادهای منتخب برای مقاصد محبوب را ارائه می‌کند",
       tags: [
         {
           name: "nextjs",

@@ -40,7 +40,7 @@ const ProjectCard = ({ index, name , description , image, source_code_link, tags
 
         <div className="mt-5 ">
           <h3 className="text-white font-bold text-[24px]">{name}</h3>
-          <p className="mt-2 text-secondary text-[14px]">{description}</p>
+          <p className="mt-2 text-secondary text-[14px] direction">{description}</p>
         </div>
 
         <div className="mt-4 flex flex-row gap-2">
@@ -60,22 +60,21 @@ const Works = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>
-          My work
+        <p className={`${styles.sectionSubText} direction`}>
+          نمونه کارهای من
         </p>
-          <h2 className={styles.sectionHeadText}>Projects</h2>
+          <h2 className={`${styles.sectionHeadText} direction`}> مشاهده ی پروژه ها</h2>
       </motion.div>
 
-      <div className="w-full flex">
+      <div className="w-full flex  direction">
         <motion.p 
           variants={fadeIn('','',0.1,1)}
-          className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
+          className="mt-3 text-secondary text-[22px] max-w-3xl leading-[40px]"
         >
-          Following projects showcases my skills and experience through
-          real-world examples of my work. Each project is briefly described with
-          links to code repositories and live demos in it. It reflects my
-          ability to solve complex problems, work with different technologies,
-          and manage projects effectively.
+          پروژه‌های زیر توانایی‌ها و تجربه‌ام را از طریق نمونه‌های واقعی از کارهای انجام‌شده نشان می‌دهند.
+           هر پروژه به طور خلاصه توضیح داده شده و دارای پیوندهایی به مخازن کد و نمایش زنده است. 
+           این پروژه‌ها توانایی من در حل مسائل پیچیده، کار با فناوری‌های مختلف و
+            مدیریت پروژه‌ها را به خوبی نمایان می‌سازند.
         </motion.p>
       </div>
 
@@ -88,4 +87,4 @@ const Works = () => {
   )
 }
 
-export default SectionWrapper (Works,'')
+export default SectionWrapper (Works,'project')

@@ -32,23 +32,24 @@ const ServiceCard = ({index , title , icon}) => {
 
 const About = () => {
   return (
-    <>
+    <div className='direction'>
       <motion.div variants={textVariant()}>
         <p
           className={styles.sectionSubText}
-        >Introduction</p>
-        <h2 className={styles.sectionHeadText}>OverView</h2>
+        >معرفی</p>
+        <h2 className={styles.sectionHeadText}>خلاصه مهارت ها </h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn('','',0.1,1)}
-        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+        className='mt-4 text-secondary text-[22px] max-w-3xl leading-[40px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        
+من یک توسعه‌دهنده نرم‌افزار با تجربه در TypeScript و JavaScript هستم،
+ و تخصص در React، Next.js و Three.js دارم. 
+ من مشتاق یادگیری ام و با کاربران همکاری می‌کنم تا
+  راه‌حل‌های کارآمد، مقیاس‌پذیر و کاربرپسند برای حل مسائل واقعی ایجاد کنم و تلاش میکنم تا ،
+  ایده‌های شما را به واقعیت تبدیل کنم!
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
@@ -56,7 +57,7 @@ const About = () => {
           <ServiceCard key={service.title} index={index} {...service}/>
         ))}
       </div>
-    </>
+    </div>
   )
 }
 

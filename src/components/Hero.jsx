@@ -1,32 +1,30 @@
 import { motion } from 'framer-motion'
 
 import { styles } from '../styles'
-import { ComputersCanvas } from './canvas'
 
 const Hero = () => {
   return (
-    <section className={`relative w-full h-screen mx-auto`}>
+    <section className={`relative w-full h-screen mx-auto direction`}>
     <div
       className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
     >
-      <div className='flex flex-col justify-center items-center mt-5'>
+      <div className='flex flex-col mr-20 justify-center items-center mt-5'>
         <div className='w-5 h-5 rounded-full bg-[#915EFF]' />
         <div className='w-1 sm:h-80 h-40 violet-gradient' />
       </div>
       
         <div>
           <h1 className={`${styles.heroHeadText}`}>
-            Hi I'm 
+             به
             <span className='text-[#915eff]'>
-            &nbsp; Neshat
-              </span>
+            &nbsp;Tech Vision Web              </span>
+            خوش آمدید
             </h1>
             <p className={`${styles.heroSubText} mt-2 text-white-100 text-right`}>
-             من توسعه دهنده ی فرانت اند هستم و هدف من <br className='sm:block hidden' /> ترکیب زیبایی و عملکرد در تجربه کاربری است
+              من توسعه دهنده ی فرانت اند هستم و  <br className='sm:block hidden' />    هدف من ترکیب زیبایی و عملکرد در تجربه کاربری است و <br className='sm:block hidden' /> با تسلط به  تکنولوژی‌های مدرن، به ایجاد تجربه‌ای بی‌نظیر اهمیت می‌دهم
             </p>
         </div>
       </div>
-        <ComputersCanvas />
 
         <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
           <a href='#about'>

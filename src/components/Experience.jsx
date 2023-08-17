@@ -45,10 +45,10 @@ const Experience = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>
-          What i have done so far
+        <p className={`${styles.sectionSubText} direction`}>
+          چه زبان هایی بلدم 
         </p>
-          <h2 className={styles.sectionHeadText}>Experience</h2>
+          <h2 className={`${styles.sectionHeadText} direction`}>خلاصه ای از توانایی ها </h2>
       </motion.div>
           <div className="mt-20 flex flex-col">
             <VerticalTimeline>
